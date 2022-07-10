@@ -18,7 +18,7 @@ params:
   author: ""
   favicon: ""
   site_logo: ""
-  description: The last theme you'll ever need. Maybe.
+  # description: The last theme you'll ever need. Maybe.
   background_color_class: bg-black
   recent_posts_number: 3
   math: true
