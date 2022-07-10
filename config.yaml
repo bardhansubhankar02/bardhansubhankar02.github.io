@@ -1,19 +1,18 @@
 baseURL: https://bardhansubhankar02.github.io
 languageCode: en-us
-title: Notre-Dame de Paris
+title: Subhankar Bardhan
 theme: ananke
-resourceDir: ../resources
 DefaultContentLanguage: en
 SectionPagesMenu: main
-Paginate: 3
+Paginate: 5
 googleAnalytics: ""
 enableRobotsTXT: true
 
 languages:
   en:
-    title: Ananke
+    title: Subhankar Bardhan
     weight: 1
-    contentDir: content/en
+    contentDir: content/
 params:
   text_color: ""
   author: ""
@@ -22,6 +21,7 @@ params:
   description: The last theme you'll ever need. Maybe.
   background_color_class: bg-black
   recent_posts_number: 3
+  math: true
   ananke_socials:
     - name: twitter
       url: https://twitter.com
