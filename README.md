@@ -2,4 +2,4 @@
 
 It is a website leveraging GitHub Pages located at `bardhansubhankar02.github.io`. Customize as you like.
 
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+![](https://render.githubusercontent.com/render/math?math=r = \sqrt{x^{2} + y^{2} + z^{2}})
