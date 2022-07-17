@@ -1,27 +1,81 @@
 baseURL: https://bardhansubhankar02.github.io
-languageCode: en-us
-title: Subhankar Bardhan
-theme: ananke
+languageCode: en
 DefaultContentLanguage: en
-SectionPagesMenu: main
-Paginate: 5
-googleAnalytics: ""
+title: Subhankar Bardhan
+theme: anatole
+summarylength: 10
+enableEmoji: true
 enableRobotsTXT: true
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+localizedDates: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: true
+  indices:
+    - name: keywords
+      weight: 100
+    - name: tags
+      weight: 80
 
 languages:
   en:
     title: Subhankar Bardhan
     weight: 1
+    LanguageName: EN
     contentDir: content/
+    menu:
+      main:
+        - name: Posts
+          weight: 200
+          identifier: posts
+          url: /post/
+        # - name: About
+        #   weight: 400
+        #   identifier: about
+        #   url: /about/
+
 params:
-  text_color: ""
-  author: ""
-  favicon: ""
-  site_logo: ""
-  # description: The last theme you'll ever need. Maybe.
-  background_color_class: bg-black
-  recent_posts_number: 3
-  math: true
-  ananke_socials:
-    - name: twitter
-      url: https://twitter.com
+  title: I'm Subhankar Bardhan
+  author: Subhankar Bardhan
+  description: ""
+  profilePicture: profile.png
+  keywords: ''
+  favicon: favicons/
+  customCss: []
+  customJs: []
+  mainSections:
+    - post
+  images:
+  doNotLoadAnimations: false
+  singleDateFormat: 2/1/2006
+  indexDateFormat: 2/1/2006
+  listDateFormat: 2/1/2006
+  reversepagetitle: true
+  simpleAnalytics: {}
+  plausibleAnalytics: {}
+  umami: {}
+  math:
+    enable: true
+    use: katex
+  socialIcons:
+    - icon: fab fa-github
+      title: GitHub
+      url: 'https://github.com/lxndrblz/anatole/'
+    - icon: fab fa-twitter
+      title: twitter
+      url: 'https://www.twitter.com/'
+  mermaid: {}
