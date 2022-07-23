@@ -49,7 +49,7 @@ languages:
         #   url: /about/
 
 params:
-  title: I'm Subhankar Bardhan
+  title: Subhankar Bardhan
   author: Subhankar Bardhan
   description: ""
   profilePicture: profile.png
